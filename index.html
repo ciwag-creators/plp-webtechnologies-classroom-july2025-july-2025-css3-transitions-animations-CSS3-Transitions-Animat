@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations & JavaScript Triggers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CELLS</h1>
+            <p>This is the functional and structural basic unit of life</p>
+        </header>
+
+        <section class="animation-section">
+            <h2>Movement in Cells</h2>
+            <p>Click buttons to see the possible ways cell can move</p>
+            <div class="button-group">
+                <button id="fadeBtn">Fade In</button>
+                <button id="slideBtn">Slide In</button>
+                <button id="pulseBtn">Pulse</button>
+                <button id="spinBtn">Spin</button>
+                <button id="bounceBtn">Bounce</button>
+                <button id="flipBtn">Flip</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+            <div class="box" id="animatedBox">Animate Me!</div>
+        </section>
+
+        <section class="animation-section">
+            <h2>Types of cells</h2>
+            <p>Click on the card to flip it</p>
+            <div class="card-container">
+                <div class="card" id="flipCard">
+                    <div class="card-front">Animal Cell</div>
+                    <div class="card-back">Plant Cell</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="animation-section">
+            <h2>Loading Animation Control</h2>
+            <p>Start or stop the loading animation using the controls</p>
+            <div class="controls">
+                <button id="startLoader">Start Loading</button>
+                <button id="stopLoader">Stop Loading</button>
+            </div>
+            <div class="loader" id="loader">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </section>
+
+        <section class="animation-section">
+            <h2>Modal Popup</h2>
+            <p>Click the button to trigger a modal popup with animation</p>
+            <button id="openModal">Open Modal</button>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <h3>Animated Modal</h3>
+                    <p>This modal appears with a fade-in and slide-down animation!</p>
+                    <button class="close-btn" id="closeModal">✕</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Created by Chiemeke Izo</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
